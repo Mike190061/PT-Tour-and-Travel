@@ -33,6 +33,7 @@ formClose.addEventListener("click", () => {
   loginForm.classList.remove("active");
 });
 
+// ==============fix here ==================// monke
 videoBtn.forEach((btn) => {
   btn.addEventListener("click", () => {
     document.querySelector(".controls .active").classList.remove("active");
